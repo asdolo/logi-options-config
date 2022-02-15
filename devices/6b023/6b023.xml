@@ -159,7 +159,7 @@
           <actions>
             <action id="click">
               <task minver="10" id="0x10053" class="virtualkey">
-                <params alt="0" />
+                <params alt="0" configure="0" ctrl="0" shift="0" vkey="9" win="1" />
               </task>
             </action>
             <action id="down">
