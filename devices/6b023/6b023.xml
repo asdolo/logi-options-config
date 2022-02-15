@@ -143,8 +143,8 @@
             </action>
           </actions>
         </controlid>
-        <controlid rawxy="1" actiongroup7="win8nav2" actiongroup8="win8nav2" rawwheel="0" group="3" groupmask="7" id="0x00c4" reprogrammable="true" type="mouse" taskidlist="manualshiftTaskidList2" gestureidlist="othersGestureidList" actiongrouplist="win8NavList" actiongroup="virtualdesktop">
-          <task id="0x009d" class="manualshift">
+        <controlid rawxy="1" actiongroup7="win8nav2" actiongroup8="win8nav2" rawwheel="0" group="3" groupmask="7" id="0x00c4" reprogrammable="true" type="mouse" taskidlist="manualshiftTaskidList2" gestureidlist="othersGestureidList" actiongrouplist="win8NavList" actiongroup="custom">
+          <task rawxy="1" id="0x1002c" class="gesturebutton">
             <params />
           </task>
           <remappableids>
@@ -163,16 +163,24 @@
               </task>
             </action>
             <action id="down">
-              <task id="0x10048" class="donothing" />
+              <task id="0x0002" class="volumecommand">
+                <params command="voldown" />
+              </task>
             </action>
             <action id="left">
-              <task id="0x10049" class="donothing" />
+              <task id="0x1000e" class="donothing">
+                <params />
+              </task>
             </action>
             <action id="right">
-              <task id="0x10050" class="donothing" />
+              <task id="0x1000e" class="donothing">
+                <params />
+              </task>
             </action>
             <action id="up">
-              <task id="0x10047" class="gestureButtonVirtualDesktop" />
+              <task id="0x0001" class="volumecommand">
+                <params command="volup" />
+              </task>
             </action>
           </actions>
         </controlid>
